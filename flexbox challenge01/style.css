@@ -43,17 +43,13 @@ h1 {
 .row {
     /* display: flex => flex container */
     display: flex;
-    
     gap: 20px;
-
-    margin: 70px 0;
-
+    margin: 3em 0;
     text-align: center;
-
     justify-content: center;
 }
 
-.row h2 {
+.three-col h2 {
     color: #87629A;
 }
 
@@ -62,27 +58,27 @@ h1 {
     width: 100%;
 }
 
-.container-bottom {
+.two-col {
     background-color: #136C72;
     width: 100%;
     margin: 0 auto;
 }
 
-.row-bottom {
-    display: flex;
+.two-col .row {
+    /* display: flex;
     gap: 20px;
-
     text-align: center;
-
-    justify-content: center;
-
+    justify-content: center; */
     color: #FFF;
-    
-    padding: 70px 0;
+    padding: 3em 0;
 }
 
-.row-bottom > .col {
+.two-col .col {
     width: 35%;
+}
+
+.two-col h2 {
+    color: #FFF;
 }
 
 .hero {
