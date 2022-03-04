@@ -65,12 +65,9 @@ h1 {
 }
 
 .two-col .row {
-    /* display: flex;
-    gap: 20px;
-    text-align: center;
-    justify-content: center; */
     color: #FFF;
     padding: 3em 0;
+    margin: 0;
 }
 
 .two-col .col {
