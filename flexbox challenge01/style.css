@@ -44,7 +44,6 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     gap: 20px;
-    text-align: center;
 }
 
 .three-col {
