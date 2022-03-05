@@ -44,9 +44,12 @@ h1 {
     /* display: flex => flex container */
     display: flex;
     gap: 20px;
-    margin: 3em 0;
     text-align: center;
-    justify-content: center;
+}
+
+.three-col {
+    padding: 3em 0;
+    text-align: center;
 }
 
 .three-col h2 {
@@ -60,22 +63,10 @@ h1 {
 
 .two-col {
     background-color: #136C72;
+    color: #FFF;
     width: 100%;
-    margin: 0 auto;
-}
-
-.two-col .row {
-    color: #FFF;
     padding: 3em 0;
-    margin: 0;
-}
-
-.two-col .col {
-    width: 35%;
-}
-
-.two-col h2 {
-    color: #FFF;
+    text-align: center;
 }
 
 .hero {
